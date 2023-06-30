@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+body {
+    background-color: #F7F9FA;
+}
