@@ -18,9 +18,10 @@ ul, li {
 }
 
 .header__top__left-menu li {
-    padding: 14px 0px 15px 0px;
+    padding: 14px 0px 17px 0px;
     margin-right: 14px;
 }
+
 
 .header__top__left-menu a {
     color: #8D8D8D;
@@ -34,6 +35,37 @@ ul, li {
 
 }
 .active a {
+    line-height: normal;
     color: #313133;
     font-weight: 500;
+}
+
+.customers {
+    display: inline-block;
+}
+
+.about {
+    display: inline-block;
+    padding-left: 16px;
+    border-left: solid 2px #E0E1E6;
+}
+
+.about li:last-child {
+    margin-right: 0px;
+}
+
+
+.header__top_right-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header__top_right-menu a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.number a {
+    color: #760135;
 }
