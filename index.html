@@ -14,16 +14,16 @@
 <body>
     <header class="header">
         <section class="header__top">
-            <ul class="header__top__left-menu">
+            <nav class="header__top__left-menu">
                 <div class="customers">
-                    <li class="active"><a href="">Частным клиентам</a></li>
-                    <li><a href="">Для бизнеса</a></li>
+                    <a class="active" href="">Частным клиентам</a>
+                    <a href="">Для бизнеса</a>
                 </div>
                     <div class="about">
-                        <li class="middle"><a href="">О банке</a></li>
-                        <li class="active"><a href="">Офисы</a></li>
+                        <a class="middle" href="">О банке</a>
+                        <a class="active" href="">Офисы</a>
                     </div>
-            </ul>
+                </nav>
             <ul class="header__top_right-menu">
                 <li class="number"><a href="">8 (800) 775-56-06</a></li>
                 <li><a href=""><img src="./icons/location.svg" alt="локация">Хабаровск</a></li>
@@ -41,7 +41,7 @@
                 <li><a href="#">Переводы</a></li>
                 <li><a href="#">Страхование</a></li>
                 <li><a href="#">Страхование</a></li>
-                <li class="header-bottom__right-menu__service"><a href="#">Сервисы</a><img src="./icons/Vector.png" alt="Раскрыть сервисы?"></li>
+                <li class="header-bottom__right-menu__service"><a href="#">Сервисы</a><img src="./icons/arrow_down.png" alt="Раскрыть сервисы?"></li>
             </ul>
             <ul class="header-bottom__left-menu">
                 <li><img src="./icons/phone.png" alt=""><a class="header-bottom__left-menu__phone" href="#">Заказать звонок</a></li>
@@ -50,22 +50,55 @@
         </section>
         <section class="banner">
             <div class="banner__wrapper">
-            <ul class="banner__bredcrumb">
-                <li>Главная</li>
-                <li><img src="./icons/Arrow.png" alt="стрелка"></li>
-                <li>Кредит</li>
-                <li><img src="./icons/Arrow.png" alt="стрелка"></li>
-                <li>Автокредит</li>
-            </ul>
-            <div class="banner__form">
-                 <h1 class="banner__title">Автокредит от 7,5% годовых</h1>
-                <h2 class="bunner__subtitle">на покупку авто у дилера или частного лица</h2>
-                <input class="banner__button" type="button" value="оформить">
+            <div class="banner__info">
+                    <ul class="banner__bredcrumb">
+                        <li>Главная</li>
+                        <li><img src="./icons/Arrow.png" alt="стрелка"></li>
+                        <li>Кредит</li>
+                        <li><img src="./icons/Arrow.png" alt="стрелка"></li>
+                        <li>Автокредит</li>
+                    </ul>
+                <div class="banner__form">
+                    <h1 class="banner__title">Автокредит от 7,5% годовых</h1>
+                    <h2 class="bunner__subtitle">на покупку авто у дилера или частного лица</h2>
+                    <input class="banner__button" type="button" value="оформить">
+                </div>
             </div>
-        </div>
-            <img class="banner__image" src="./images/car.png" alt="Машшина">
+                <img class="banner__image" src="./images/car.png" alt="Машшина">
+            </div>
         </section>
     </header>
-    <main></main>
+    <main>
+        <section class="choose-auto">
+            <div class="choose-auto__title">
+                <h1>Выберите себе авто</h1>
+                <button>Свернуть список машин<img src="./icons/arrow_up.png" alt="Свернуть?">
+                </button>
+            </div>
+                <div class="choose-auto__selectionbar">
+                    <div class="choose-auto__selection">
+                        <h2>Марка</h2>
+                        <select name="Выбрать" id="">
+                            <option value="Mazda">Выбрать</option>
+                            <option value="Mazda">Мазда</option>
+                            <option value="Mazda">Мазда</option>
+                        </select>
+                    </div>
+                    <div class="choose-auto__selection">
+                        <h2>Год</h2>
+                        <select name="Выбрать" id="">
+                            <option value="Mazda">Выбрать</option>
+                            <option value="Mazda">Мазда</option>
+                            <option value="Mazda">Мазда</option>
+                        </select>
+                    </div>
+                    <div class="choose-auto__selection">
+                        <h2>Цена</h2>
+                        <input type="number">
+                        <input type="number">
+                    </div>
+                </div>
+        </section>
+    </main>
 </body>
 </html>

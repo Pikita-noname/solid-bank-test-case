@@ -1,0 +1,10 @@
+.choose-auto__title {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 173px;
+}
+
+.choose-auto__selectionbar {
+    display: flex;
+}
+

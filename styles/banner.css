@@ -1,10 +1,16 @@
 .banner {
-    width: 100vw;
+    width: 98vw;
     max-height: 380px;
-    display: flex;
-    justify-content: space-between;
     padding: 0 60px;
     background: linear-gradient(225deg, #FEE4FF 0%, #EFF9FF 100%);
+}
+
+.banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/images/Group\ 693.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .banner__bredcrumb {
@@ -43,11 +49,10 @@
     border-radius: 8px;
     background: #760135;
     color: #FFF;
+    border: none;
+    cursor: pointer;
 }
 
 .banner__image {
-    height: auto;
-    max-width: 100%;
-    width: auto;
-    margin-right: 170px;
+ margin-right: 6vw;
 }
