@@ -1,10 +1,53 @@
+.choose-auto {
+    margin: 0 173px;
+}
+
 .choose-auto__title {
     display: flex;
+    justify-content: space-between;
     margin-top: 40px;
-    margin-left: 173px;
 }
 
 .choose-auto__selectionbar {
     display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 24px 0;
 }
 
+.choose-auto__selection h2 {
+    margin-bottom: 8px;
+}
+
+.choose-auto__selection select, input {
+    width: 100%;
+    display: flex;
+    padding-left: 16px;
+    opacity: 0.5;
+    height: 40px;
+    border: 1px solid #ECEDF0;
+    border-radius: 8px;
+    background-color: #F3F3F5;
+}
+
+.mark {
+    width: 441px;
+}
+
+.year {
+    width: 219px;
+}
+
+.price {
+    width: 394px;
+}
+
+.choose-auto__price-input {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.choose-auto__price-input img {
+    height: 4px;
+}
