@@ -4,8 +4,8 @@
     justify-content: space-between;
     border-bottom: solid 1px #E0E1E6;
     padding: 14px 60px;
-
-
+    font-family: IBM Plex Sans;
+    background-color: #fff;
 }
 
 .header__top__left-menu {
@@ -54,11 +54,13 @@
 }
 
 .header__top_right-menu a {
+    font-weight: 400;
     display: inline-flex;
     align-items: center;
     padding-bottom: 3px;
 }
 
 .number a {
+    font-weight: 500;
     color: #760135;
 }

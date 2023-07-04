@@ -1,7 +1,6 @@
 .banner {
-    width: 98vw;
     max-height: 380px;
-    padding: 0 60px;
+    padding: 0 0 0 60px;
     background: linear-gradient(225deg, #FEE4FF 0%, #EFF9FF 100%);
 }
 
@@ -22,6 +21,7 @@
     margin: 16px 0 0 0;
     color: #8D8D8D;
     font-size: 13px;
+    font-weight: 400;
 }
 
 .banner__bredcrumb li:last-child  {
@@ -55,5 +55,5 @@
 }
 
 .banner__image {
- margin-right: 6vw;
-}
+    margin-right: 6vw;
+   }

@@ -11,3 +11,8 @@ body {
     background-color: #F7F9FA;
     color: #111111;
 }
+
+button {
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+}

@@ -1,0 +1,65 @@
+.best-offers {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.best-offers__offer {
+    display: flex;
+    align-items: center;
+    padding: 23px 0px 23px 40px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.best-offers__offer__title h2 {
+    font-size: 15px;
+    color: #25B456;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 17px;
+}
+
+.best-offers__offer__title h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.best-offers__offer__title p {
+    max-width: 545px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+.best-offers__offer__title h3 {
+    font-size: 24px;
+    color: #760135;
+    margin-bottom: 22px;
+}
+
+.best__offers__offer__more {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 17px;
+}
+
+.best__offers__offer__more a {
+    color: #760135;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.swiper {
+    width: 600px;
+    height: 260px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
