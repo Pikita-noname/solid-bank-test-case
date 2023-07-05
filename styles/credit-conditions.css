@@ -1,0 +1,50 @@
+.credit-conditions {
+
+    height: 399px;
+    margin: 0 173px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 110px;
+}
+
+.credit-conditions caption {
+    text-align: start;
+    color: #760135;
+    font-size: 24px;
+    margin: 40px 0 24px 0;
+}
+
+.credit-conditions table {
+    max-width: 1014px;
+    table-layout: fixed;
+    margin: 0 40px 26px 40px;
+}
+
+
+.credit-conditions th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0 20px 0;
+
+}
+
+.credit-conditions th {
+    width: 40%;
+    padding-right: 8px;
+    text-align: start;
+    font-weight: 500;
+}
+
+.credit-conditions td {
+    width: auto;
+    margin-right: 100%;
+    font-weight: 400;
+}
+
+.credit-conditions a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+    color: #760135;
+    font-size: 15px;
+}
