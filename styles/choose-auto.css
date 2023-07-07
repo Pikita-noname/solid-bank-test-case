@@ -38,6 +38,11 @@
     margin: 24px 0;
 }
 
+.choose-auto__selectionbar-wrapper {
+    display: flex;
+    gap: 24px;
+}
+
 .choose-auto__selection h2 {
     font-size: 15px;
     font-weight: 500;
@@ -77,13 +82,69 @@
     height: 4px;
 }
 
-.swiper-button-next {
-    right: 34px !important;
+
+
+
+@media (max-width: 1240px)  {
+
+    .choose-auto {
+        margin: 0 16px;
+    }
+
+    .mark {
+        width: 200px;
+    }
+
+    .year {
+        width: 153px;
+    }
+
+    .price {
+        width: 342px;
+    }
+
+
 }
 
-.swiper-button-next::after {
-    color: gray;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-    opacity: 0.5 !important;
+@media (max-width:600px) {
+
+    .choose-auto__selectionbar {
+        flex-direction: column;
+    }
+
+    .choose-auto__title {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .choose-auto__title h1 {
+        font-size: 28px;
+        margin-right: 71px;
+    }
+
+    .choose-auto__title button {
+        width: 340px;
+    }
+
+    .choose-auto__price-input {
+        gap: 0;
+    }
+
+    .mark {
+        width: 158px;
+    }
+
+    
+
+
+
+
+
+
+}
+
+@media (max-width:480px) {
+
+
 }
