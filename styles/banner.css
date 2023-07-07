@@ -1,10 +1,18 @@
 .banner {
-    max-height: 380px;
+    height: 380px;
     padding: 0 0 0 60px;
     background: linear-gradient(225deg, #FEE4FF 0%, #EFF9FF 100%);
+
+}
+
+.banner__bg-image {
+    background-image: url(/images/car.png);
+    background-repeat: no-repeat;
+    background-position: 51vw 0vh;
 }
 
 .banner__wrapper {
+    height: 380px;
     display: flex;
     justify-content: space-between;
     background-image: url(/images/Group\ 693.png);
@@ -55,6 +63,63 @@
     cursor: pointer;
 }
 
-.banner__image {
-    margin-right: 6vw;
-   }
+
+@media (max-width: 980px) {
+
+    .banner {
+        padding: 0 0 0 17px;
+        background-position: 53vw -10vh;
+        background: linear-gradient(180deg, rgba(247, 249, 250, 0.00) 0%, #F7F9FA 100%)
+    }
+    
+    .banner__bredcrumb {
+        display: none;
+    }
+
+    .banner__wrapper {
+        background-position: 26vw;
+    }
+
+    .banner__bg-image {
+        background-position: 50vw -10vh;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .banner {
+        height: 450px;
+        padding: 0;
+        background: linear-gradient(225deg, #FEE4FF 0%, #EFF9FF 100%);
+    }
+
+    .banner__title {
+        margin-top: 24px;
+    }
+
+    .banner__info {
+        padding: 0 16px;
+    }
+
+    .banner__bredcrumb {
+        display: inline-flex;
+    }
+
+    .banner__button {
+        display: none;
+    }
+
+    .banner__bg-image {
+        height: 450px;
+        background-image: url(/images/Car2.png);
+        background-position: 0vw 40vh;
+    }
+
+    .banner__wrapper {
+        background-image: none;
+        background-position: -144vw 14vh;
+        height: 450px;
+    }
+
+}

@@ -36,7 +36,7 @@
         </section>
         <section class="header-bottom">
             <ul class="header-bottom__right-menu">
-                <li class="header-bottom__logo"><img src="./images/Logo.png" alt=""></li>
+                <li class="header-bottom__right-menu__logo"><img src="./images/Logo.png" alt="лого"></li>
                 <li><a href="#">Кредиты</a></li>
                 <li><a href="#">Вклады</a></li>
                 <li><a href="#">Обмен валют</a></li>
@@ -46,14 +46,42 @@
                 <li><a href="#">Страхование</a></li>
                 <li><a href="#">Страхование</a></li>
                 <li class="header-bottom__right-menu__service"><a href="#">Сервисы</a><img src="./icons/arrow_down.png" alt="Раскрыть сервисы?"></li>
+                <li class="header-bottom__right-menu__service more"><a href="#">ещё</a><img src="./icons/arrow_down.png" alt="Раскрыть сервисы?"></li>
             </ul>
             <ul class="header-bottom__left-menu">
+                <li class="header-bottom__left-menu__logo"><img src="./images/Logo.png" alt="лого"></li>
+                <div class="header-bottom__left-menu__wrapper">
                 <li><img src="./icons/phone.png" alt=""><a class="header-bottom__left-menu__phone" href="#">Заказать звонок</a></li>
                 <li><img src="./icons/login.png" alt=""><a class="header-bottom__left-menu__login" href="#">Интернет-банк</a></li>
+                
+                <div id="menuToggle">
+
+                    <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    <ul id="menu">
+                      <a href="#"><li>О банке</li></a>
+                      <a href="#"><li>Офисы</li></a>
+                    </ul>
+                  </div>
+
+                </div>
             </ul>
+
         </section>
+
+        <div class="mobile-bar">
+            <li><img src="./icons/phone.png" alt=""><a class="header-bottom__left-menu__phone" href="#">8 800 775-56-06</a></li>
+            <li><img src="./icons/login.png" alt=""><a class="header-bottom__left-menu__login" href="#">Интернет-банк</a></li>
+          </div>
+
         <section class="banner">
+            <div class="banner__bg-image">
             <div class="banner__wrapper">
+                
             <div class="banner__info">
                     <ul class="banner__bredcrumb">
                         <li>Главная</li>
@@ -68,8 +96,10 @@
                     <input class="banner__button" type="button" value="оформить">
                 </div>
             </div>
-                <img class="banner__image" src="./images/car.png" alt="Машшина">
+                <div class="banner__image-wrapper">
+                </div>
             </div>
+        </div>
         </section>
     </header>
     <main>
@@ -80,6 +110,7 @@
                 </button>
             </div>
                 <div class="choose-auto__selectionbar">
+                    <div class="choose-auto__selectionbar-wrapper">
                     <div class="choose-auto__selection mark">
                         <h2>Марка</h2>
                         <select name="Выбрать" id="">
@@ -96,6 +127,8 @@
                             <option value="Mazda">Мазда</option>
                         </select>
                     </div>
+                </div>
+
                     <div class="choose-auto__selection price">
                         <h2>Цена</h2>
                         <div class="choose-auto__price-input">
@@ -127,6 +160,7 @@
                                   <div class="swiper-slide">Изображение машины</div>
                                   
                                 </div>
+                                <div class="swiper-button-prev"></div>
                                   <div class="swiper-button-next"></div>
                               </div>
                              
@@ -154,6 +188,7 @@
                                   <div class="swiper-slide">Изображение машины</div>
                                   
                                 </div>
+                                <div class="swiper-button-prev"></div>
                                   <div class="swiper-button-next"></div>
                               </div>
                              
@@ -181,6 +216,7 @@
                                   <div class="swiper-slide">Изображение машины</div>
                                   
                                 </div>
+                                <div class="swiper-button-prev"></div>
                                   <div class="swiper-button-next"></div>
                               </div>
                              
@@ -380,13 +416,35 @@
                     </div>
                     </div>
 
+                    
+
                 </div>
+
+                    <div class="micro-button">показать все машины</div>               
+
                 <div class="link-to-form">
                     <h1>Не нашли автомобиль у нас, но нужен автокредит? <a href="#">Перейдите к форме заявки</a></h1>
                 </div>
         </section>
 
         <section class="credit-conditions">
+            <div class="table-row first">
+                <h1>Общие условия</h1>
+                <p>Срок</p>
+                <span>от 6 месяцев до 6 лет.</span>
+            </div>
+            <div class="table-row">
+                <p>Сумма</p>
+                <span>от 200 000 до 5 000 000 руб.</span>
+            </div>
+            <div class="table-row">
+                <p>Годовая процентная  ставка:</p>
+                <span>от 7,5 % *.</span>
+            </div>
+            <div class="table-row">
+                <p>Возможность приобретения авто у частного лица</p>
+                <span></span>
+            </div>
             <table>
                 <caption>Общие условия</caption>
                 <tr>
@@ -411,7 +469,7 @@
 
         <section class="questions">
             <div class="questions__wrapper">
-            <img src="./icons/Question.svg" alt="вопросы">
+            <img class="quest__img"src="./icons/Question.svg" alt="вопросы">
             <h1>Часто задаваемые
                 вопросы</h1>
                 <div class="questions__info"><h2>Как подать заявку на автокредит?</h2><img src="./icons/chevron (2).svg" alt="Шеврон">
@@ -422,6 +480,7 @@
 
     <footer>
         <div class="footer__nav">
+            <div class="footer__nav-wrapper">
             <ul>
                 <li><a href="#">Частным лицам</a></li>
                 <li><a href="#">Банковские карты</a></li>
@@ -464,24 +523,67 @@
                 <li><a href="#">Непрофильные активы</a></li>
             </ul>
 
-            <div class="socials-list">
-                <div class="socials-list__number1">
-                    <a href="#">8 800 775-56-06</a>
-                    <span>Для звонков по России (бесплатно)</span>
-                </div>
-                <div class="socials-list__number2">
-                    <a href="#">+7 495 232-37-23</a>
-                    <span>Для блокировка карт (круглосуточно)</span>
-                </div>
-                <div class="socials-list__socials">
-                    <button><img src="./icons/Social.svg" alt="телеграмм"></button>
-                    <button><img src="./icons/Social (1).svg" alt="вконтакет"></button>
-                    <button><img src="./icons/Social (2).svg" alt="одноклассники"></button>
-                    <button><img src="./icons/Social (3).svg" alt="твиттер"></button>
-                </div>
 
+        </div>
+
+        <div class="mobile-footer">
+            <div class="mobile-footer__btn first-btn">
+                <h1>Частным лицам</h1>
+                <img src="./icons/arrow_down.png" alt="">
+            </div>
+            <div class="mobile-footer__btn">
+                <h1>Бизнесу</h1>
+                <img src="./icons/arrow_down.png" alt="">
+            </div>
+            <div class="mobile-footer__btn">
+                <h1>О банке</h1>
+                <img src="./icons/arrow_down.png" alt="">
+            </div>
+            <div class="mobile-footer__btn">
+                <h1>Дополнительные пункты</h1>
+                <img src="./icons/arrow_down.png" alt="">
             </div>
         </div>
+
+        <div class="socials-list">
+            <div class="socials-list__number1">
+                <a href="#">8 800 775-56-06</a>
+                <span>Для звонков по России (бесплатно)</span>
+            </div>
+            <div class="socials-list__number2">
+                <a href="#">+7 495 232-37-23</a>
+                <span>Для блокировка карт (круглосуточно)</span>
+            </div>
+            <div class="socials-list__socials">
+                <a href="#"><img src="./icons/Social.svg" alt="телеграмм"></a>
+                <a href="#"><img src="./icons/Social (1).svg" alt="вконтакет"></a>
+                <a href="#"><img src="./icons/Social (2).svg" alt="одноклассники"></a>
+                <a href="#"><img src="./icons/Social (3).svg" alt="твиттер"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="description">
+        <p>FATCA
+            Страхование и другие услуги НФО
+            Общие условия предоставления банковских гарантий в АО «Солид Банк»
+            Памятки по финансовой безопасности
+            Обеспечение защиты прав потребителей финансовых услуг
+            Методика определения справедливой стоимости финансовых инструментов
+            Политика в отношении обработки персональных данных
+            Лица, ответственные за сведения на сайте
+            Аудиторская компания
+            Надзорные органы
+            Информация о процентных ставках по договорам банковского вклада с физическими лицами
+            Информация, связанная с совершением Банком действий, предусмотренных пунктом 5.6 статьи 7 ФЗ N 115</p>
+    </div>
+
+    <div class="copyright-developer">
+        <p class="copyright">© 2004-2021, АО «Солид Банк» , официальный сайт, генеральная лицензия ЦБ РФ № 1329.</p>
+        <p class="developer">Разработка сайта - <a href="#">RASA</a></p>
+    </div>
+
     </footer>
     <script src="./index.js"></script>
 </body>

@@ -9,6 +9,12 @@ footer {
     gap: 36px;
 }
 
+.footer__nav-wrapper {
+    display: flex;
+    gap: 36px;
+    border-right: solid 2px #E6E7EB;
+}
+
 footer ul {
     width: 303px;
 }
@@ -32,3 +38,152 @@ footer li:nth-child(1) a {
  margin-bottom: 16px;
 }
 
+.socials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 47px;
+}
+
+.socials-list a {
+    display: block;
+    color: #760135;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.socials-list span {
+    font-size: 13px;
+    color: #BABCC2;
+    font-weight: 400;
+
+}
+
+.socials-list__socials {
+    display: flex;
+    gap: 16px;
+}
+
+.socials-list__socials a {
+    padding: 8px;
+    background-color: #E6E7EB;
+    border: none;
+    border-radius: 9px;
+}
+
+.description {
+    margin: 32px 0;
+}
+
+.description p {
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #7E7F85;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #E0E1E6;
+}
+
+.copyright-developer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-developer p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #606266 ;
+}
+
+.copyright-developer a {
+    color: #009EE2;
+}
+
+
+.mobile-footer {
+    padding: 24px 0;
+    display: none;
+    flex-direction: column;
+}
+
+.mobile-footer__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: solid 1px #E6E7EB;
+    cursor: pointer;
+
+}
+
+.mobile-footer__btn img {
+    margin-right: 10px;
+}
+
+.first-btn {
+    border-top: solid 1px #E6E7EB
+}
+
+.mobile-footer__btn h1 {
+    font-size: 17px;
+}
+
+
+@media (max-width: 1310px) {
+
+    footer {
+        padding: 24px 16px;
+    }
+
+    .footer__nav {
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+
+    .footer__nav-wrapper {
+        padding-top: 24px;
+        border-right: none;
+        border-top: solid 2px #E6E7EB;
+    }
+
+    .footer__nav-wrapper ul {
+        width: 100%;
+    }
+
+    .socials-list {
+        padding-bottom: 24px;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+    }
+
+
+}
+
+@media (max-width: 760px) { 
+
+    .description p {
+        display: none;
+    }
+
+    .copyright-developer {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer__nav-wrapper {
+        display: none;
+    }
+
+    .socials-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-footer {
+        display: flex;
+    }
+
+}
