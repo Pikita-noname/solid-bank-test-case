@@ -23,14 +23,14 @@
     object-fit: cover;
 }
 
-.auto-list__card h1 {
+.auto-list__card-name {
     font-size: 17px;
     font-weight: 500;
 
     margin-bottom: 8px;
 }
 
-.auto-list__card h2 {
+.auto-list__card-city {
     font-size: 15px;
     font-weight: 400;
 }
@@ -41,7 +41,7 @@
     
 }
 
-.auto-list__card h3 {
+.auto-list__card-price {
     font-size: 17px;
     font-weight: 500;
     color: #760135;
@@ -63,7 +63,7 @@
     border-radius: 16px;
 }
 
-.link-to-form h1 {
+.link-to-form p {
     font-size: 15px;
     font-weight: 400;
 

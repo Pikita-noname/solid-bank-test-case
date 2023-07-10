@@ -20,18 +20,18 @@
         <section class="header__top">
             <nav class="header__top__left-menu">
                 <div class="customers">
-                    <a class="active" href="">Частным клиентам</a>
-                    <a href="">Для бизнеса</a>
+                    <a class="active" href="#">Частным клиентам</a>
+                    <a href="#">Для бизнеса</a>
                 </div>
                     <div class="about">
-                        <a class="middle" href="">О банке</a>
-                        <a class="" href="">Офисы</a>
+                        <a class="middle" href="#">О банке</a>
+                        <a class="" href="#">Офисы</a>
                     </div>
                 </nav>
             <ul class="header__top_right-menu">
-                <li class="number"><a href="">8 (800) 775-56-06</a></li>
-                <li><a href=""><img src="./icons/location.svg" alt="локация">Хабаровск</a></li>
-                <li><a href="">English</a></li>
+                <li class="number"><a href="#">8 (800) 775-56-06</a></li>
+                <li><a href="#"><img src="./icons/location.svg" alt="локация">Хабаровск</a></li>
+                <li><a href="#">English</a></li>
             </ul>
         </section>
         <section class="header-bottom">
@@ -92,7 +92,7 @@
                     </ul>
                 <div class="banner__form">
                     <h1 class="banner__title">Автокредит от 7,5% годовых</h1>
-                    <h2 class="bunner__subtitle">на покупку авто у дилера или частного лица</h2>
+                    <p class="bunner__subtitle">на покупку авто у дилера или частного лица</p>
                     <input class="banner__button" type="button" value="оформить">
                 </div>
             </div>
@@ -105,14 +105,14 @@
     <main>
         <section class="choose-auto">
             <div class="choose-auto__title">
-                <h1>Выберите себе авто</h1>
-                <button>Свернуть список машин<img src="./icons/chevron.svg" alt="Свернуть?">
+                <h2>Выберите себе авто</h2>
+                <button onclick="HideShowList()">Свернуть список машин<img src="./icons/chevron.svg" alt="Свернуть?">
                 </button>
             </div>
                 <div class="choose-auto__selectionbar">
                     <div class="choose-auto__selectionbar-wrapper">
                     <div class="choose-auto__selection mark">
-                        <h2>Марка</h2>
+                        <p>Марка</p>
                         <select name="Выбрать" id="">
                             <option value="Mazda">Выбрать</option>
                             <option value="Mazda">Мазда</option>
@@ -120,7 +120,7 @@
                         </select>
                     </div>
                     <div class="choose-auto__selection year">
-                        <h2>Год</h2>
+                        <p>Год</p>
                         <select name="Выбрать" id="">
                             <option value="Mazda">Выбрать</option>
                             <option value="Mazda">Мазда</option>
@@ -130,7 +130,7 @@
                 </div>
 
                     <div class="choose-auto__selection price">
-                        <h2>Цена</h2>
+                        <p>Цена</p>
                         <div class="choose-auto__price-input">
                         <input type="number" placeholder="От">
                         <img src="./icons/Vector 73.png" alt="разделитель">
@@ -141,11 +141,11 @@
                 <div class="best-offers">
                     <div class="best-offers__offer">
                         <div class="best-offers__offer__title">
-                        <h2>Лучшее предложение</h2>
-                        <h1>Renault Arkana drive</h1>
-                        <p>Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. 
+                        <p class="offer-title">Лучшее предложение</p>
+                        <p class="best-offers__offer__title-name">Renault Arkana drive</p>
+                        <p class="best-offers__offer__title-description">Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. 
         В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!</p>
-                            <h3>от 1 316 000 ₽</h3>
+                            <p class="best-offers__offer__title-price">от 1 316 000 ₽</p>
                             <div class="best__offers__offer__more">
                             <a href="#">Подробнее</a> <img src="./icons/Arrow.svg" alt="Стрелочка">
                         </div>
@@ -169,11 +169,11 @@
                     </div>
                     <div class="best-offers__offer">
                         <div class="best-offers__offer__title">
-                        <h2>Лучшее предложение</h2>
-                        <h1>Volkswagen Tiguan PA</h1>
-                        <p>Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. 
+                        <p class="offer-title">Лучшее предложение</p>
+                        <p class="best-offers__offer__title-name">Volkswagen Tiguan PA</p>
+                        <p class="best-offers__offer__title-description">Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. 
                             В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!</p>
-                            <h3>от 2 395 000 ₽</h3>
+                            <p class="best-offers__offer__title-price">от 2 395 000 ₽</p>
                             <div class="best__offers__offer__more">
                             <a href="#">Подробнее</a> <img src="./icons/Arrow.svg" alt="Стрелочка">
                         </div>
@@ -197,11 +197,11 @@
                     </div>
                     <div class="best-offers__offer">
                         <div class="best-offers__offer__title">
-                        <h2>Лучшее предложение</h2>
-                        <h1>BMW X7</h1>
-                        <p>Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. 
+                        <p class="offer-title">Лучшее предложение</p>
+                        <p class="best-offers__offer__title-name">BMW X7</p>
+                        <p class="best-offers__offer__title-description">Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. 
                             В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!</p>
-                            <h3>от  8 188 000 ₽</h3>
+                            <p class="best-offers__offer__title-price">от  8 188 000 ₽</p>
                             <div class="best__offers__offer__more">
                             <a href="#">Подробнее</a> <img src="./icons/Arrow.svg" alt="Стрелочка">
                         </div>
@@ -224,194 +224,194 @@
                         </div>
                     </div>
                 </div>
-                <div class="auto-list">
+                <div id="car__list"  class="auto-list">
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car1.png" alt="машина">
-                        <h1>KIA Sportage. LUXE+ 2Л</h1>
-                        <h2>г. Якутск</h2>
+                        <a href="#"><img src="./images/card-list_car1.png" alt="машина"></a>
+                        <a href="#"> <p class="auto-list__card-name">KIA Sportage. LUXE+ 2Л</p></a>
+                        <p class="auto-list__card-city">г. Якутск</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>2 211 700 ₽</h3>
+                        <p class="auto-list__card-price">2 211 700 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car2.png" alt="машина">
-                        <h1>Skoda Karoq</h1>
-                        <h2>г. Казань</h2>
+                        <a href="#"><img src="./images/card-list_car2.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Skoda Karoq</p></a>
+                        <p class="auto-list__card-city">г. Казань</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>1 790 000 ₽</h3>
+                        <p class="auto-list__card-price">1 790 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car3.png" alt="машина">
-                        <h1>Citroen c4</h1>
-                        <h2>г. Уфа</h2>
+                        <a href="#"><img src="./images/card-list_car3.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Citroen c4</p></a>
+                        <p class="auto-list__card-city">г. Уфа</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>1 523 000 ₽</h3>
+                        <p class="auto-list__card-price">1 523 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car4.png" alt="машина">
-                        <h1>Mercedes-benz Gls 400 D 4m Luxury</h1>
-                        <h2>г. Казань</h2>
+                        <a href="#"><img src="./images/card-list_car4.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Mercedes-benz Gls 400 D 4m Luxury</p></a>
+                        <p class="auto-list__card-city">г. Казань</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>2 211 700 ₽</h3>
+                        <p class="auto-list__card-price">2 211 700 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car5.png" alt="машина">
-                        <h1>Mercedes-benz Gle 350 D 4matic купе</h1>
-                        <h2>г. Казань</h2>
+                        <a href="#"><img src="./images/card-list_car5.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Mercedes-benz Gle 350 D 4matic купе</p></a>
+                        <p class="auto-list__card-city">г. Казань<p>
                         <div class="auto-list__card-wrapper">
-                        <h3>2 211 700 ₽</h3>
+                        <p class="auto-list__card-price">2 211 700 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car6.png" alt="машина">
-                        <h1>Mercedes-benz Gle 300 D 4matic Sport</h1>
-                        <h2>г. Казань</h2>
+                        <a href="#"><img src="./images/card-list_car6.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Mercedes-benz Gle 300 D 4matic Sport</p></a>
+                        <p class="auto-list__card-city">г. Казань</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>2 211 700 ₽</h3>
+                        <p class="auto-list__card-price">2 211 700 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car7.png" alt="машина">
-                        <h1>Kia Sportage. Luxe+ 2.4л</h1>
-                        <h2>г. Якутск</h2>
+                        <a href="#"><img src="./images/card-list_car7.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Kia Sportage. Luxe+ 2.4л</p></a>
+                        <p class="auto-list__card-city">г. Якутск</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>2 336 700 ₽</h3>
+                        <p class="auto-list__card-price">2 336 700 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car8.png" alt="машина">
-                        <h1>Kia K5. Prestige. 2.5л</h1>
-                        <h2>г. Якутск</h2>
+                        <a href="#"><img src="./images/card-list_car8.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Kia K5. Prestige. 2.5л</p></a>
+                        <p class="auto-list__card-city">г. Якутск</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>2 242 400 ₽</h3>
+                        <p class="auto-list__card-price">2 242 400 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car9.png" alt="машина">
-                        <h1>Honda Freed</h1>
-                        <h2>С аукциона Японии.</h2>
+                        <a href="#"><img src="./images/card-list_car9.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Honda Freed</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии.</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 650 000 ₽</h3>
+                        <p class="auto-list__card-price">от 650 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car10.png" alt="машина">
-                        <h1>Nissan Caravan (nv350)</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car10.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Nissan Caravan (nv350)</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 1 250 000 ₽</h3>
+                        <p class="auto-list__card-price">от 1 250 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car11.png" alt="машина">
-                        <h1>Toyota Land Cruizer Prado</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car11.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Toyota Land Cruizer Prado</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 2 500 000 ₽</h3>
+                        <p class="auto-list__card-price">от 2 500 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car12.png" alt="машина">
-                        <h1>Toyota Vitz</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car12.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Toyota Vitz</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 480 000 ₽</h3>
+                        <p class="auto-list__card-price">от 480 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car13.png" alt="машина">
-                        <h1>Toyota Vitz</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car13.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Toyota Vitz</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 520 000 ₽</h3>
+                        <p class="auto-list__card-price">от 520 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car14.png" alt="машина">
-                        <h1>KIA Sportage. LUXE+ 2Л</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car14.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">KIA Sportage. LUXE+ 2Л</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 750 000 ₽</h3>
+                        <p class="auto-list__card-price">от 750 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car15.png" alt="машина">
-                        <h1>KIA Sportage. LUXE+ 2Л</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car15.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">KIA Sportage. LUXE+ 2Л</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 800 000 ₽</h3>
+                        <p class="auto-list__card-price">от 800 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car16.png" alt="машина">
-                        <h1>Toyota Vitz</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car16.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">Toyota Vitz</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 1 050 000</h3>
+                        <p class="auto-list__card-price">от 1 050 000</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car17.png" alt="машина">
-                        <h1>KIA Sportage. LUXE+ 2Л</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car17.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">KIA Sportage. LUXE+ 2Л</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 600 000 ₽</h3>
+                        <p class="auto-list__card-price">от 600 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car18.png" alt="машина">
-                        <h1>KIA Sportage. LUXE+ 2Л</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car18.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">KIA Sportage. LUXE+ 2Л</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 850 000 ₽</h3>
+                        <p class="auto-list__card-price">от 850 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
 
                     <div class="auto-list__card">
-                        <img src="./images/card-list_car19.png" alt="машина">
-                        <h1>KIA Sportage. LUXE+ 2Л</h1>
-                        <h2>С аукциона Японии</h2>
+                        <a href="#"><img src="./images/card-list_car19.png" alt="машина"></a>
+                        <a href="#"><p class="auto-list__card-name">KIA Sportage. LUXE+ 2Л</p></a>
+                        <p class="auto-list__card-city">С аукциона Японии</p>
                         <div class="auto-list__card-wrapper">
-                        <h3>от 440 000 ₽</h3>
+                        <p class="auto-list__card-price">от 440 000 ₽</p>
                         <a href="#">Подробнее</a>
                     </div>
                     </div>
@@ -420,16 +420,16 @@
 
                 </div>
 
-                    <div class="micro-button">показать все машины</div>               
+                    <div id="micro-btn" class="micro-button" onclick="ShowCars()">показать все машины</div>               
 
                 <div class="link-to-form">
-                    <h1>Не нашли автомобиль у нас, но нужен автокредит? <a href="#">Перейдите к форме заявки</a></h1>
+                    <p>Не нашли автомобиль у нас, но нужен автокредит? <a href="#">Перейдите к форме заявки</a></p>
                 </div>
         </section>
 
         <section class="credit-conditions">
             <div class="table-row first">
-                <h1>Общие условия</h1>
+                <h3>Общие условия</h3>
                 <p>Срок</p>
                 <span>от 6 месяцев до 6 лет.</span>
             </div>
@@ -470,10 +470,13 @@
         <section class="questions">
             <div class="questions__wrapper">
             <img class="quest__img"src="./icons/Question.svg" alt="вопросы">
-            <h1>Часто задаваемые
-                вопросы</h1>
-                <div class="questions__info"><h2>Как подать заявку на автокредит?</h2><img src="./icons/chevron (2).svg" alt="Шеврон">
+            <h4>Часто задаваемые
+                вопросы</h4>
+                <div class="questions__info-wrapper">
+                <div class="questions__info" onclick="HideShowQuest()"><p>Как подать заявку на автокредит?</p><img src="./icons/chevron (2).svg" alt="Шеврон">
                 </div>
+                <div id="answer" class="questions__info-answer hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, natus.</div>
+            </div>
         </div>
         </section>
     </main>
@@ -527,22 +530,70 @@
         </div>
 
         <div class="mobile-footer">
-            <div class="mobile-footer__btn first-btn">
-                <h1>Частным лицам</h1>
+            <div class="mobile-footer__btn first-btn" onclick="HideShowFooter__first()">
+                <p class="mobile-footer__title">Частным лицам</p>
                 <img src="./icons/arrow_down.png" alt="">
             </div>
-            <div class="mobile-footer__btn">
-                <h1>Бизнесу</h1>
+            <ul id="First" class="hide">
+                <li>Банковские карты</li>
+                <li>Кредиты</li>
+                <li>Вклады</li>
+                <li>Ипотека</li>
+                <li>Страхование</li>
+                <li>Сейфовые ячейки</li>
+                <li>Открытие счетов</li>
+                <li>Обмен валюты</li>
+                <li>Переводы</li>
+                <li>Маркетплейс</li>
+            </ul>
+            <div class="mobile-footer__btn" onclick="HideShowFooter__second()">
+                <p class="mobile-footer__title">Бизнесу</p>
                 <img src="./icons/arrow_down.png" alt="">
             </div>
-            <div class="mobile-footer__btn">
-                <h1>О банке</h1>
+            <ul id="Second" class="hide">
+                <li>Экспресс-МСБ</li>
+                <li>Расчетно-кассовое обслуживание</li>
+                <li>Онлайн резервирование счета</li>
+                <li>Внешнеэкономическая деятельность</li>
+                <li>Зарплатный проект</li>
+                <li>Овердрафт</li>
+                <li>Кредит</li>
+                <li>Лизинг</li>
+                <li>Депозиты</li>
+                <li>Банковские гарантии</li>
+                <li>Факторинг</li>
+            </ul>
+            <div class="mobile-footer__btn" onclick="HideShowFooter__third()">
+                <p class="mobile-footer__title">О банке</p>
                 <img src="./icons/arrow_down.png" alt="">
             </div>
-            <div class="mobile-footer__btn">
-                <h1>Дополнительные пункты</h1>
+            <ul id="Third" class="hide">
+                <li>Новости</li>
+                <li>Вакансии</li>
+                <li>Офисы</li>
+                <li>Инвестиционные услуги</li>
+                <li>О банке</li>
+                <li>Реквизиты</li>
+                <li>Тарифы</li>
+                <li>Монеты</li>
+                <li>Непрофильные активы</li>
+            </ul>
+            <div class="mobile-footer__btn" onclick="HideShowFooter__fourth()">
+                <p class="mobile-footer__title">Дополнительные пункты</p>
                 <img src="./icons/arrow_down.png" alt="">
             </div>
+            <ul id="Fourth" class="hide">
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+            </ul>
         </div>
 
         <div class="socials-list">

@@ -81,7 +81,7 @@
     }
 
     .banner__bg-image {
-        background-position: 50vw -10vh;
+        background-position: 50vw -50px;
     }
 
 }
@@ -113,7 +113,8 @@
     .banner__bg-image {
         height: 450px;
         background-image: url(/images/Car2.png);
-        background-position: 0vw 40vh;
+        background-position: -3vw 95%;
+        
     }
 
     .banner__wrapper {
@@ -122,4 +123,10 @@
         height: 450px;
     }
 
+}
+
+@media (max-width: 380px) {
+ .banner__bg-image {
+    background-position: -10vw 95%;
+ }
 }

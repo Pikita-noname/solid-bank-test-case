@@ -126,8 +126,17 @@ footer li:nth-child(1) a {
     border-top: solid 1px #E6E7EB
 }
 
-.mobile-footer__btn h1 {
+.mobile-footer__title {
+    font-weight: 600;
     font-size: 17px;
+}
+
+.mobile-footer ul {
+    font-size: 18px;
+}
+
+.mobile-footer li:nth-child(1) {
+    margin-bottom: 10px;
 }
 
 

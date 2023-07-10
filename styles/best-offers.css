@@ -13,7 +13,7 @@
     background-color: #fff;
 }
 
-.best-offers__offer__title h2 {
+.offer-title {
     font-size: 15px;
     color: #25B456;
     font-weight: 500;
@@ -21,19 +21,19 @@
     margin-top: 17px;
 }
 
-.best-offers__offer__title h1 {
+.best-offers__offer__title-name {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.best-offers__offer__title p {
+.best-offers__offer__title-description {
     max-width: 545px;
     font-weight: 400;
     margin-bottom: 21px;
 }
 
-.best-offers__offer__title h3 {
+.best-offers__offer__title-price {
     font-size: 24px;
     color: #760135;
     margin-bottom: 22px;
@@ -96,7 +96,7 @@
         padding: 40px;
     }
 
-    .best-offers__offer__title p {
+    .best-offers__offer__title-description {
         display: none;
     }
 

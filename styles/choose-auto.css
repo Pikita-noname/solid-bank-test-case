@@ -10,7 +10,7 @@
     font-family: IBM Plex Sans;
 }
 
-.choose-auto__title h1 {
+.choose-auto__title h2 {
     font-size: 32px;
 }
 
@@ -43,7 +43,7 @@
     gap: 24px;
 }
 
-.choose-auto__selection h2 {
+.choose-auto__selection p {
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 8px;
@@ -118,7 +118,7 @@
         gap: 24px;
     }
 
-    .choose-auto__title h1 {
+    .choose-auto__title h2 {
         font-size: 28px;
         margin-right: 71px;
     }

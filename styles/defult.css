@@ -16,3 +16,8 @@ button {
     font-family: IBM Plex Sans;
     font-weight: 500;
 }
+
+
+.hide {
+    display: none !important;
+}
