@@ -6,7 +6,7 @@
 }
 
 .banner__bg-image {
-    background-image: url(/images/car.png);
+    background-image: url(../images/car.png);
     background-repeat: no-repeat;
     background-position: 51vw 0vh;
 }
@@ -15,7 +15,7 @@
     height: 380px;
     display: flex;
     justify-content: space-between;
-    background-image: url(/images/Group\ 693.png);
+    background-image: url(../images/Group\ 693.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -112,7 +112,7 @@
 
     .banner__bg-image {
         height: 450px;
-        background-image: url(/images/Car2.png);
+        background-image: url(../images/Car2.png);
         background-position: -3vw 95%;
         
     }
